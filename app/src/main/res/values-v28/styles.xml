@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="txtYesevOneregular">
+        <item name="android:fontFamily">@font/yeseva_one</item>
+        <item name="android:textFontWeight">400</item>
+
+    </style>
+</resources>

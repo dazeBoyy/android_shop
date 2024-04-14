@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_"
+    tools:context=".Welcome_screen"
+    tools:visibility="visible">
+
+    <RelativeLayout
+        android:id="@+id/layout_top"
+        android:layout_width="450dp"
+        android:layout_height="900dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_bottom"
+        android:layout_width="450dp"
+        android:layout_height="900dp"
+        android:background="@drawable/gradient"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/welcome"
+            style="@style/pressStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="250dp"
+            android:text="@string/welcome"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/brand"
+            style="@style/txtYesevOneregular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="350dp"
+            android:text="@string/brand_name2"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/registration"
+            style="@style/txtYesevOneregular"
+            android:layout_width="343dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="430dp"
+            android:backgroundTint="@color/white_transparent"
+            android:onClick="registration"
+            android:text="@string/registration"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/b"
+            style="@style/txtYesevOneregular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="700dp"
+            android:text="@string/have_account"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/login"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="137dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="693dp"
+            android:fontFamily="@font/yeseva_one"
+            android:onClick="login"
+            android:text="@string/login"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

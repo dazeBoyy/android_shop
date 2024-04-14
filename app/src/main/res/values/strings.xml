@@ -1,0 +1,25 @@
+<resources>
+    <string name="brand_name">Уютная доставка</string>
+    <string name="welcome">Добро пожаловать в</string>
+    <string name="brand_name2">Уютную доставку</string>
+
+    <string name="have_account">Уже есть аккаунт?</string>
+
+    <string name="login"><u>Войти</u></string>
+
+    <string name="registration">Зарегистрироваться тут</string>
+
+    <string name="registration2">Регистрация</string>
+
+    <string name="login2">Вход</string>
+
+    <string name="login3">Войти</string>
+
+    <string name="make_acc">Нет аккаунта?</string>
+
+    <string name="registration3"><u>Регистрация</u></string>
+
+    <string name="back"><u>&lt;</u></string>
+
+
+</resources>

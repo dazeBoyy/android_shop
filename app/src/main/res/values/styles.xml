@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="txtYesevOneregular">
+        <item name="android:fontFamily">@font/yeseva_one</item>
+
+    </style>
+
+    <style name="pressStart">
+        <item name="android:fontFamily">@font/press_start_2p</item>
+
+    </style>
+
+
+
+
+
+</resources>

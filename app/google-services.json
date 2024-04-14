@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "236371157369",
+    "project_id": "homefoodapp-9dee1",
+    "storage_bucket": "homefoodapp-9dee1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236371157369:android:403a80de49ea38e4114fa8",
+        "android_client_info": {
+          "package_name": "com.example.homefoodapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUwKxlYDcs68S1sTaZdJGso-mN5fLA7FM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

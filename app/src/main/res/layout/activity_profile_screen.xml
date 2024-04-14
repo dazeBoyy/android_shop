@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".Profile_Screen">
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="330dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="268dp"
+        android:background="@drawable/corners"
+        android:hint="Введите полное имя"
+        android:inputType="textEmailAddress"
+        android:paddingStart="16dp"
+        android:textAlignment="textStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/backbtn"
+        android:layout_width="48dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="320dp"
+        android:background="@drawable/oval"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="330dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="376dp"
+        android:background="@drawable/corners"
+        android:hint="Введите телефон"
+        android:inputType="textEmailAddress"
+        android:paddingStart="16dp"
+        android:textAlignment="textStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/namee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="232dp"
+        android:fontFamily="@font/yesevaoneregular"
+        android:text="Полное имя"
+        android:textColor="#403B3B"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="152dp"
+        android:fontFamily="@font/yesevaoneregular"
+        android:text="Александр"
+        android:textColor="#403B3B"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mail_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="176dp"
+        android:fontFamily="@font/yesevaoneregular"
+        android:text="grgrgorg@mail.ru"
+        android:textColor="#6C6C6C"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="344dp"
+        android:fontFamily="@font/yesevaoneregular"
+        android:text="Номер телефона"
+        android:textColor="#403B3B"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="179dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile" />
+
+    <Button
+        android:id="@+id/save"
+        style="@style/txtYesevOneregular"
+        android:layout_width="285dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/orange"
+        android:text="Сохранить"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

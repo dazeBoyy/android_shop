@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".Information_screen">
+
+
+    <Button
+        android:id="@+id/next"
+        style="@style/txtYesevOneregular"
+        android:layout_width="343dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="67dp"
+        android:backgroundTint="@color/orange"
+        android:onClick="adress_page"
+        android:text="Далее"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="42dp"
+        android:fontFamily="@font/yesevaoneregular"
+        android:text="Привет"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="399dp"
+        android:layout_height="232dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="268dp"
+        android:fontFamily="@font/yesevaoneregular"
+        android:text="НАШ СЕРВИС ПОЗВОЛЯЕТ ЗАКАЗЫВАТЬ ДОМАШНЮЮ ЕДУ СДЕЛАННУЮ ОБЫЧНЫМИ ЛЮДЬМИ "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="84dp"
+        android:fontFamily="@font/yesevaoneregular"
+        android:text="Немного информации о нас"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="146dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="133dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/girl" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

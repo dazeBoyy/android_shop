@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".Registration_screen">
+
+
+    <TextView
+        android:id="@+id/brand"
+        style="@style/txtYesevOneregular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/registration2"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/registration_button"
+        style="@style/txtYesevOneregular"
+        android:layout_width="343dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="67dp"
+        android:backgroundTint="@color/orange"
+        android:onClick="registration"
+        android:text="@string/registration"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="330dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="244dp"
+        android:background="@drawable/corners"
+        android:hint="Введите имя"
+        android:inputType="text"
+        android:paddingStart="16dp"
+        android:textAlignment="textStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="330dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="428dp"
+        android:background="@drawable/corners"
+        android:hint="Введите пароль"
+        android:inputType="textPassword"
+        android:paddingStart="16dp"
+        android:textAlignment="textStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="330dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="332dp"
+        android:background="@drawable/corners"
+        android:hint="Введите почту"
+        android:inputType="textEmailAddress"
+        android:paddingStart="16dp"
+        android:textAlignment="textStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="140dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="59dp"
+        android:fontFamily="@font/yeseva_one"
+        android:text="Полное имя"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/brand" />
+
+    <TextView
+        android:id="@+id/mail_text"
+        android:layout_width="140dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/yeseva_one"
+        android:text="Почта"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <TextView
+        android:id="@+id/password_text"
+        android:layout_width="140dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginBottom="13dp"
+        android:fontFamily="@font/yeseva_one"
+        android:text="Пароль"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/b"
+        style="@style/txtYesevOneregular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/have_account"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/login"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="124dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="19dp"
+        android:fontFamily="@font/yeseva_one"
+        android:onClick="login"
+        android:text="@string/login"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/b"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context=".Login_screen">
+
+
+    <TextView
+        android:id="@+id/brand"
+        style="@style/txtYesevOneregular"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="176dp"
+        android:text="@string/login2"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mail_text"
+        android:layout_width="140dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/yeseva_one"
+        android:text="Почта"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/mail"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/mail"
+        android:layout_width="330dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="288dp"
+        android:background="@drawable/corners"
+        android:hint="Введите почту"
+        android:inputType="textEmailAddress"
+        android:paddingStart="16dp"
+        android:textAlignment="textStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/password_text"
+        android:layout_width="140dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/yeseva_one"
+        android:text="Пароль"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="330dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="392dp"
+        android:background="@drawable/corners"
+        android:hint="Введите пароль"
+        android:inputType="textPassword"
+        android:paddingStart="16dp"
+        android:textAlignment="textStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/login"
+        style="@style/txtYesevOneregular"
+        android:layout_width="343dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="490dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="67dp"
+        android:backgroundTint="@color/orange"
+        android:onClick="login"
+        android:text="@string/login3"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/b"
+        style="@style/txtYesevOneregular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="44dp"
+        android:text="@string/make_acc"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/registration"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="215dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/yeseva_one"
+        android:onClick="registration"
+        android:text="@string/registration3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
