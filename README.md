@@ -1,5 +1,5 @@
 # android_shop
-
+## Весь код в master branch!!!
 ![image](https://github.com/dazeBoyy/android_shop/assets/66539510/e4e245cb-9ff7-4f94-97a1-60996c2183dc)
 ## Загрузочный экран
 ![image](https://github.com/dazeBoyy/android_shop/assets/66539510/aec46439-b7ff-45c1-98c3-7759d507a52c)
