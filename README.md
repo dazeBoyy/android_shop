@@ -1,4 +1,6 @@
 # android_shop
+## Дизайн в Figma: 
+### https://www.figma.com/file/xW981dwmO456yjrs5CmeB7/FoodDelivery?type=design&node-id=0-1&mode=design&t=M67IRFS5pzmljEMG-0
 ## Весь код в master branch!!!
 ![image](https://github.com/dazeBoyy/android_shop/assets/66539510/e4e245cb-9ff7-4f94-97a1-60996c2183dc)
 ## Загрузочный экран
