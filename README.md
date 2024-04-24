@@ -8,20 +8,32 @@
 ## Приветственный экран
 ![image](https://github.com/dazeBoyy/android_shop/assets/66539510/25d9cfcd-c545-46ad-a8c9-f4da92522226)
 ## Экран с регистрацией
-![image](https://github.com/dazeBoyy/android_shop/assets/66539510/faf67bc8-2395-4073-8af5-67943657405e)
+![image](https://github.com/dazeBoyy/android_shop/assets/66539510/facd11b1-5bb5-424e-af42-58f53e67cd9a)
 ## Экран с авторизацией
-![image](https://github.com/dazeBoyy/android_shop/assets/66539510/eb8a3c32-f2d8-4b95-96f6-fd9b922a16cc)
+![image](https://github.com/dazeBoyy/android_shop/assets/66539510/9f1450bd-2c89-43d1-919a-aa7d964dbbc0)
+## Экран с востановления
+![image](https://github.com/dazeBoyy/android_shop/assets/66539510/6376ff24-98c2-4722-be70-cc9a8768fba6)
 ## Экран с информацией
-![image](https://github.com/dazeBoyy/android_shop/assets/66539510/2b811f45-f77d-418e-a0e7-33ab86fffae3)
+![image](https://github.com/dazeBoyy/android_shop/assets/66539510/134ad07c-4b03-43c8-a4bd-4cd915c4c7da)
 ## Главный экран
-![image](https://github.com/dazeBoyy/android_shop/assets/66539510/df2d6802-29b0-44af-a76e-b54a6f033a2a)
+![image](https://github.com/dazeBoyy/android_shop/assets/66539510/d760a15f-c607-4212-a776-34d0df672811)
 ## Страничка с категориями
-![image](https://github.com/dazeBoyy/android_shop/assets/66539510/2fcbecaf-5cb5-4b39-8fae-73f31fd56c2a)
+![image](https://github.com/dazeBoyy/android_shop/assets/66539510/c7231ad6-a738-4f6c-91c8-a1ec05c040a1)
 ## Страничка с продуктом
-![image](https://github.com/dazeBoyy/android_shop/assets/66539510/c6f57801-6f3d-479b-9936-4b1d1a07debc)
+![image](https://github.com/dazeBoyy/android_shop/assets/66539510/7bff9e93-4d75-4cfc-8b90-6090339947e0)
+
 ## Корзина
 ![image](https://github.com/dazeBoyy/android_shop/assets/66539510/54607345-0685-410a-b87e-9c6451857790)
 ## Профиль
 ![image](https://github.com/dazeBoyy/android_shop/assets/66539510/3d0ad68d-cd9a-4451-8b2f-4979f781b122)
 ## Ввод адреса
-
+![image](https://github.com/dazeBoyy/android_shop/assets/66539510/a321114d-1697-4724-b81b-ac2ab29f5c49)
+## Мои заказы
+![image](https://github.com/dazeBoyy/android_shop/assets/66539510/b4a58f59-e21b-4a9d-b98c-9eb087feac1c)
+## О нас
+![image](https://github.com/dazeBoyy/android_shop/assets/66539510/6ac2d42c-03da-43e9-978f-0c42a3212cb5)
+## Боковое меню
+![image](https://github.com/dazeBoyy/android_shop/assets/66539510/47342959-97da-4b76-8734-f7c9832a2ac0)
+## Любимое
+![image](https://github.com/dazeBoyy/android_shop/assets/66539510/ea460c84-af06-4e00-b8e7-5ac5b3d14076)
+## Оплата
