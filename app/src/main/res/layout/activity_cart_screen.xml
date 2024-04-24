@@ -95,7 +95,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/item_total"
+            android:id="@+id/items"
             android:layout_width="121dp"
             android:layout_height="34dp"
             android:layout_marginStart="176dp"
@@ -108,13 +108,39 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
+            android:id="@+id/tax"
+            android:layout_width="121dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="176dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/yesevaoneregular"
+            android:text="800 руб."
+            android:textColor="#000000"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
             android:id="@+id/total"
             android:layout_width="121dp"
             android:layout_height="34dp"
             android:layout_marginStart="176dp"
-            android:layout_marginTop="104dp"
+            android:layout_marginTop="136dp"
             android:fontFamily="@font/yesevaoneregular"
             android:text="1600 руб."
+            android:textColor="#000000"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="114dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="136dp"
+            android:fontFamily="@font/yesevaoneregular"
+            android:text="Итог:"
             android:textColor="#000000"
             android:textSize="20dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -134,6 +160,19 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
+            android:id="@+id/taxtext"
+            android:layout_width="114dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="96dp"
+            android:fontFamily="@font/yesevaoneregular"
+            android:text="Налог:"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
             android:id="@+id/textView62"
             android:layout_width="114dp"
             android:layout_height="33dp"
@@ -146,18 +185,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/textView6"
-            android:layout_width="114dp"
-            android:layout_height="33dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="108dp"
-            android:fontFamily="@font/yesevaoneregular"
-            android:text="Итог:"
-            android:textColor="#000000"
-            android:textSize="20dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

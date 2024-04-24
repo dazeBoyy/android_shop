@@ -73,8 +73,6 @@ public class Oat_screen extends AppCompatActivity {
         });
     }
     private void onMain() {
-        binding.skip.setOnClickListener(v -> {
-            startActivity(new Intent(Oat_screen.this, Main_screen.class));
-        });
+        binding.skip.setOnClickListener(v -> finish());
     }
 }

@@ -34,7 +34,7 @@ public class ManagmentCart {
             listpop.add(item);
         }
         tinyDB.putListObject("CartList",listpop);
-        Toast.makeText(context, "Added to your Cart", Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, "Добавлено в корзину", Toast.LENGTH_SHORT).show();
     }
 
     public ArrayList<Foods> getListCart() {
@@ -62,5 +62,11 @@ public class ManagmentCart {
         listItem.get(position).setNumberInCart(listItem.get(position).getNumberInCart()+1);
         tinyDB.putListObject("CartList",listItem);
         changeNumberItemsListener.change();
+    }
+
+    public Integer getItemsNumber() {
+        ArrayList<Foods> listItem = getListCart();
+        int size = listItem.size();
+         return size;
     }
 }

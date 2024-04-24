@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="#E5A253"
+    android:orientation="horizontal"
+    tools:context=".SideMenu_screen">
+
+
+    <ImageView
+        android:layout_width="115dp"
+        android:layout_height="165dp"
+        android:src="@drawable/profile"></ImageView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="211dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/name_sidemenu"
+            android:layout_width="213dp"
+            android:layout_height="35dp"
+
+            android:layout_marginTop="44dp"
+            android:fontFamily="@font/yesevaoneregular"
+            android:text="Ракушкин Николай"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/mail_sidemenu"
+            android:layout_width="213dp"
+            android:layout_height="35dp"
+
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/yesevaoneregular"
+            android:text="man22@mail.ru"
+            android:textAlignment="center"
+            android:textColor="#737373"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            style="@style/txtYesevOneregular"
+            android:layout_width="212dp"
+            android:id="@+id/signout"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/orange"
+            android:paddingStart="45dp"
+            android:text="Выход из аккаунта"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.964" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="23dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="15dp"
+            app:layout_constraintBottom_toBottomOf="@+id/signout"
+            app:layout_constraintStart_toStartOf="@+id/signout"
+            app:srcCompat="@drawable/exit_s" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
+
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="320dp"-->
+<!--        android:layout_height="657dp"-->
+<!--        android:layout_marginEnd="91dp"-->
+<!--        android:background="#E5A253"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/skip"-->
+<!--            android:layout_width="48dp"-->
+<!--            android:layout_height="45dp"-->
+<!--            android:layout_marginTop="56dp"-->
+<!--            android:layout_marginEnd="256dp"-->
+<!--            android:background="@drawable/oval"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:srcCompat="@drawable/back" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/photo"-->
+<!--            android:layout_width="191dp"-->
+<!--            android:layout_height="173dp"-->
+<!--            android:layout_marginStart="66dp"-->
+<!--            android:layout_marginTop="4dp"-->
+<!--            android:layout_marginEnd="64dp"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:srcCompat="@drawable/profile" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/name"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="64dp"-->
+<!--            android:layout_marginStart="110dp"-->
+<!--            android:layout_marginTop="136dp"-->
+<!--            android:fontFamily="@font/yesevaoneregular"-->
+<!--            android:text="Ракушкин Николай"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="16sp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/mail"-->
+<!--            android:layout_width="167dp"-->
+<!--            android:layout_height="33dp"-->
+<!--            android:layout_marginStart="76dp"-->
+<!--            android:layout_marginTop="176dp"-->
+<!--            android:fontFamily="@font/yesevaoneregular"-->
+<!--            android:text="man22@mail.ru"-->
+<!--            android:textAlignment="center"-->
+<!--            android:textColor="#605F5F"-->
+<!--            android:textSize="14sp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/profile"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="108dp"-->
+<!--            android:layout_marginTop="284dp"-->
+<!--            android:fontFamily="@font/yesevaoneregular"-->
+<!--            android:text="Профиль"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="16sp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/about"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="108dp"-->
+<!--            android:layout_marginTop="332dp"-->
+<!--            android:fontFamily="@font/yesevaoneregular"-->
+<!--            android:text="О нас"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="16sp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/orders"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="108dp"-->
+<!--            android:layout_marginTop="236dp"-->
+<!--            android:fontFamily="@font/yesevaoneregular"-->
+<!--            android:text="Мои заказы"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="16sp"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView4"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:layout_marginBottom="300dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/about"-->
+<!--            app:layout_constraintHorizontal_bias="1.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:srcCompat="@drawable/about_s" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView5"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:layout_marginBottom="348dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/about"-->
+<!--            app:layout_constraintHorizontal_bias="1.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:srcCompat="@drawable/profile_s" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView6"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:layout_marginBottom="396dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toStartOf="@+id/about"-->
+<!--            app:layout_constraintHorizontal_bias="1.0"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:srcCompat="@drawable/order_s" />-->
+
+
+<!--        <Button-->
+<!--            android:id="@+id/exit"-->
+<!--            style="@style/txtYesevOneregular"-->
+<!--            android:layout_width="277dp"-->
+<!--            android:layout_height="47dp"-->
+<!--            android:layout_marginTop="490dp"-->
+<!--            android:layout_marginEnd="9dp"-->
+<!--            android:layout_marginBottom="67dp"-->
+<!--            android:backgroundTint="@color/orange"-->
+<!--            android:paddingStart="45dp"-->
+<!--            android:text="Выход из аккаунта"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="18dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.571"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="1.0" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView8"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            app:layout_constraintStart_toStartOf="@+id/exit"-->
+<!--            app:layout_constraintTop_toTopOf="@+id/exit"-->
+<!--            app:srcCompat="@drawable/exit_s" />-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->

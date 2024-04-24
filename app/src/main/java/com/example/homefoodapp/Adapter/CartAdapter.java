@@ -42,6 +42,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.viewholder> {
     public void onBindViewHolder(@NonNull CartAdapter.viewholder holder, int position) {
         holder.title.setText(list.get(position).getTitle());
         holder.num.setText(String.valueOf(list.get(position).getNumberInCart()));
+        holder.price.setText(String.valueOf(list.get(position).getPrice()));
 
         Glide.with(holder.itemView.getContext())
                 .load(list.get(position).getImagePath())
@@ -64,7 +65,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.viewholder> {
     }
 
     public class viewholder extends RecyclerView.ViewHolder {
-        TextView title, plusItem,minusItem;
+        TextView title, plusItem,minusItem, price;
         ImageView pic;
         TextView tottalEachItem, num;
 
@@ -72,6 +73,7 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.viewholder> {
             super(itemView);
 
             title = itemView.findViewById(R.id.name);
+            price = itemView.findViewById(R.id.price);
             pic = itemView.findViewById(R.id.pic);
             plusItem = itemView.findViewById(R.id.plus);
             minusItem = itemView.findViewById(R.id.minus);

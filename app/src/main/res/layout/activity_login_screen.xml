@@ -100,7 +100,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="52dp"
         android:text="@string/make_acc"
         android:textColor="@color/white"
         android:textSize="17sp"
@@ -110,14 +110,29 @@
     <Button
         android:id="@+id/registration"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
-        android:layout_width="215dp"
-        android:layout_height="47dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="32dp"
+        android:layout_width="212dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="43dp"
         android:fontFamily="@font/yeseva_one"
         android:onClick="registration"
         android:text="@string/registration3"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/recovery"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="213dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/yeseva_one"
+        android:onClick="registration"
+        android:text="Забыл пароль?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 

@@ -39,9 +39,9 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.viewholder> {
     @Override
     public void onBindViewHolder(@NonNull FoodAdapter.viewholder holder, int position) {
         holder.titleTxt.setText(items.get(position).getTitle());
-        holder.priceTxt.setText("$"+ items.get(position).getPrice());
+        holder.priceTxt.setText(items.get(position).getPrice() + " руб");
         holder.category.setText(items.get(position).getCategory());
-        holder.timeTxt.setText(items.get(position).getTimeValue() + "минут");
+        holder.timeTxt.setText(items.get(position).getTimeValue() + " минут");
         holder.starTxt.setText(""+items.get(position).getStar());
         holder.person.setText(items.get(position).getPerson());
 
@@ -75,6 +75,7 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.viewholder> {
             category=itemView.findViewById(R.id.category);
             pic=itemView.findViewById(R.id.pic);
             person=itemView.findViewById(R.id.person);
+
 
         }
     }

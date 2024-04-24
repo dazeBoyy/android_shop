@@ -71,8 +71,6 @@ public class Meat_screen extends AppCompatActivity {
         });
     }
     private void onMain() {
-        binding.skip.setOnClickListener(v -> {
-            startActivity(new Intent(Meat_screen.this, Main_screen.class));
-        });
+        binding.skip.setOnClickListener(v -> finish());
     }
 }

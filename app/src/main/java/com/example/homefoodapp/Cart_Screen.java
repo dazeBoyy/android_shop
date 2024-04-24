@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.homefoodapp.Adapter.CartAdapter;
@@ -28,6 +29,9 @@ public class Cart_Screen extends AppCompatActivity {
         calculateCart();
         setVariable();
         initList();
+        onPay();
+
+
 
     }
 
@@ -41,6 +45,7 @@ public class Cart_Screen extends AppCompatActivity {
             }
         });
         binding.cardview.setAdapter(adapter);
+
     }
 
     private void calculateCart(){
@@ -49,8 +54,18 @@ public class Cart_Screen extends AppCompatActivity {
 
         double itemTotal = Math.round(managmentCart.getTotalFee() * 100) /100;
         double total = itemTotal + (itemTotal * tax) + delivery;
+        double tax_final = (itemTotal * tax);
 
         binding.total.setText(total + " руб.");
+        binding.tax.setText(String.format("%.1f", tax_final) + " руб.");
+        binding.items.setText(total + " руб.");
+        binding.amount.setText("(" + String.valueOf(managmentCart.getItemsNumber()) + ")");
+    }
+
+    private void onPay() {
+        binding.pay.setOnClickListener(v -> {
+            startActivity(new Intent(Cart_Screen.this, Pay_screen.class));
+        });
     }
 
     private  void  setVariable(){

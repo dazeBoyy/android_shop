@@ -17,6 +17,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
+    <ImageView
+        android:id="@+id/skip"
+        android:layout_width="48dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="344dp"
+        android:background="@drawable/oval"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
     <TextView
         android:id="@+id/oat_text"
         android:layout_width="93dp"
@@ -52,20 +64,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/oat2" />
-
-    <TextView
-        android:id="@+id/skip"
-        android:layout_width="41dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="4dp"
-        android:background="@drawable/oval"
-        android:text=">"
-        android:textAlignment="center"
-        android:textColor="#FD724C"
-        android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <ProgressBar
         android:id="@+id/progressBar2"

@@ -76,8 +76,6 @@ public class Soup_screen extends AppCompatActivity {
     }
 
     private void onMain() {
-        binding.skip.setOnClickListener(v -> {
-            startActivity(new Intent(Soup_screen.this, Main_screen.class));
-        });
+        binding.skip.setOnClickListener(v -> finish());
     }
 }

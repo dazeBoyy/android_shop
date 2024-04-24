@@ -71,8 +71,6 @@ public class Fish_screen extends AppCompatActivity {
         });
     }
     private void onMain() {
-        binding.skip.setOnClickListener(v -> {
-            startActivity(new Intent(Fish_screen.this, Main_screen.class));
-        });
+        binding.skip.setOnClickListener(v -> finish());
     }
 }

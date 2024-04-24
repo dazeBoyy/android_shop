@@ -2,6 +2,7 @@ package com.example.homefoodapp
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.homefoodapp.databinding.ActivityLoginScreenBinding
@@ -24,6 +25,10 @@ class Login_screen : AppCompatActivity() {
 
         binding.registration.setOnClickListener{
             val intent = Intent(this, Registration_screen::class.java)
+            startActivity(intent)
+        }
+        binding.recovery.setOnClickListener{
+            val intent = Intent(this, Recovery_screen::class.java)
             startActivity(intent)
         }
 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+        <item
+            android:id="@+id/nav_orders"
+            android:icon="@drawable/order_s"
+            android:title="Заказы" />
+        <item
+            android:id="@+id/nav_profiles"
+            android:icon="@drawable/profile_s"
+            android:title="Профиль" />
+        <item
+            android:id="@+id/nav_abouts"
+            android:icon="@drawable/about_s"
+            android:title="О нас" />
+
+</menu>
